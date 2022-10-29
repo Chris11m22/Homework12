@@ -2,9 +2,11 @@ import java.util.Objects;
 
 public class Book {
     private String bookName;
+    private String author;
     private int published;
-    public Book (String bookName, int published) {
+    public Book (String bookName, String author, int published) {
         this.bookName = bookName;
+        this.author = author;
         this.published = published;
     }
     public String getBookName (){
